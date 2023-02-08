@@ -12,3 +12,44 @@ table th,table td{
 table tr:nth-child(odd){
   background-color: #eee
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrap { 
+    width:100vw;
+    height:100vh;
+    background-color:#03085C;
+     
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content {      
+    width:auto;
+    height: auto;
+}
+p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 3em;
+}
+ 
+/*以下フェードイン表示の指定*/
+.fadein {
+    opacity: 0;
+    animation: fadein 6s ease forwards;
+}
+@keyframes fadein {
+    100% {  opacity: 1;}
+}
+ 
+/*以下遅延の指定*/
+.txt01 {animation-delay: 1s;}
+.txt02 {animation-delay: 4s;}
+.txt03 {animation-delay: 7s;}
+.txt04 {animation-delay: 10s;}
+.txt05 {animation-delay: 13s;}
+.txt06 {animation-delay: 16s;}
