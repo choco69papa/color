@@ -1,7 +1,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
-  <title>とりあえずLIFFを試してみる</title>
+  <title>カラー</title>
 
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
@@ -10,9 +10,55 @@
 </head>
 
 <body>
-  <div class="container-fluid">
-ブラウザを開く
-</div>
+    <div id="profileinfo">
+        <h2>Profile</h2>
+        <div id="profilepicturediv">
+        </div>
+        <table border="1">
+            <tr>
+                <th>userId</th>
+                <td id="useridprofilefield"></td>
+            </tr>
+            <tr>
+                <th>displayName</th>
+                <td id="displaynamefield"></td>
+            </tr>
+            <tr>
+                <th>statusMessage</th>
+                <td id="statusmessagefield"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="liffdata">
+        <h2>LIFF Data</h2>
+        <table border="1">
+            <tr>
+                <th>language</th>
+                <td id="languagefield"></td>
+            </tr>
+            <tr>
+                <th>context.viewType</th>
+                <td id="viewtypefield"></td>
+            </tr>
+            <tr>
+                <th>context.userId</th>
+                <td id="useridfield"></td>
+            </tr>
+            <tr>
+                <th>context.utouId</th>
+                <td id="utouidfield"></td>
+            </tr>
+            <tr>
+                <th>context.roomId</th>
+                <td id="roomidfield"></td>
+            </tr>
+            <tr>
+                <th>context.groupId</th>
+                <td id="groupidfield"></td>
+            </tr>
+        </table>
+    </div>
 
   <script src="https://d.line-scdn.net/liff/1.0/sdk.js"></script>
   <script src="index.js"></script>
