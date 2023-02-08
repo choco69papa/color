@@ -1,14 +1,14 @@
-
-.button-group, .profile-group{
-  margin: 30px 0;
+table{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-.button-group .button-row{
+
+table th,table td{
+  padding: 10px 0;
   text-align: center;
 }
 
-.profile-group img{
-  width: 100px;
-  height: 100px;
-  border: 1px black solid;
-  border-radius: 50% !important;
+table tr:nth-child(odd){
+  background-color: #eee
 }
