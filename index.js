@@ -41,39 +41,5 @@ function initializeApp(data){
   });
 
 
-  /* 
-   * liff.openWindow({url: "http://..."})
-   * ブラウザを開く
-   */
-  document.getElementById('openwindowbutton').addEventListener('click', function () {
-    liff.openWindow({
-      url: 'https://line.me'
-    });
-  });
-
-  /* 
-   * liff.closeWindow()
-   * LIFFを閉じる
-   */
-  document.getElementById('closewindowbutton').addEventListener('click', function () {
-    liff.closeWindow();
-  });
-
-  /* 
-   * liff.sendMessages()
-   * Botにメッセージを送信する
-   */
-  document.getElementById('sendmessagebutton').addEventListener('click', function () {
-    liff.sendMessages([
-      {
-        type: 'text',
-        text: "これはLIFFから送られたメッセージだよ!!"
-      }
-    ]).then(function () {
-      window.alert("Message sent");
-    }).catch(function (error) {
-      window.alert("Error sending message: " + error);
-    });
-  });
 
 }
