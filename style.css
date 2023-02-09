@@ -9,7 +9,6 @@ table th{
   display: block;
   text-align: left;
   width: 100%;
-  text-align: center;
 }
 
 table td{
@@ -17,7 +16,6 @@ table td{
   display: block;
   text-align: right;
   width: 100%;
-  text-align: center;
 }
 
 table tr:nth-child(odd){
