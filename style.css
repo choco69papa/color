@@ -30,11 +30,7 @@ table tr:nth-child(odd){
     width:auto;
     height: auto;
 }
-p {
-    font-size: 18px;
-    color: #000;
-    line-height: 3em;
-}
+
  
 /*以下フェードイン表示の指定*/
 .fadein {
