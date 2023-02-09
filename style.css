@@ -46,9 +46,9 @@ p {
 }
  
 /*以下遅延の指定*/
-.txt01 {animation-delay: 1s;}
-.txt02 {animation-delay: 4s;}
-.txt03 {animation-delay: 7s;}
-.txt04 {animation-delay: 10s;}
-.txt05 {animation-delay: 13s;}
-.txt06 {animation-delay: 16s;}
+.txt01 {animation-delay: 0s;}
+.txt02 {animation-delay: 1s;}
+.txt03 {animation-delay: 2s;}
+.txt04 {animation-delay: 3s;}
+.txt05 {animation-delay: 4s;}
+.txt06 {animation-delay: 5s;}
