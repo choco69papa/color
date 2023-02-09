@@ -22,6 +22,10 @@ table tr:nth-child(odd){
   background-color: #eee
 }
 
+@media (max-width: 600px) {
+  table {
+    width: 100%;
+}
 
  
 /*以下フェードイン表示の指定*/
