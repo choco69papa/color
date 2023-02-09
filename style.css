@@ -6,6 +6,9 @@ table{
 
 table th,table td{
   padding: 10px 0;
+  display: block;
+  text-align: left;
+  width: 100%;
   text-align: center;
 }
 
