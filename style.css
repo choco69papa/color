@@ -16,6 +16,7 @@ table tr:nth-child(odd){
 
 .bg_img {
     background-image: url(mainimg.png);    /* 背景画像指定 */
+    background-size:  cover;               /* 画像のサイズ指定 */
 }
 
 /*以下フェードイン表示の指定*/
