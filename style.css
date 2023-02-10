@@ -14,7 +14,7 @@ table tr:nth-child(odd){
   background-color: #eee
 }
 
-.resizeimage img { width: 100%; }
+.resizeimage img { width: 100vw; }
 
 /*以下フェードイン表示の指定*/
 .fadein {
