@@ -14,7 +14,10 @@ table tr:nth-child(odd){
   background-color: #eee
 }
 
- 
+.bg_img {
+    background-image: url(mainimg.png);    /* 背景画像指定 */
+}
+
 /*以下フェードイン表示の指定*/
 .fadein {
     opacity: 0;
