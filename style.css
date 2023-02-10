@@ -76,7 +76,8 @@
     max-width: 100%;
 }
 
-
+.resizeimage img { width: 100vw; }
+	
 table{
   width: 100%;
   border-collapse: collapse;
