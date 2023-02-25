@@ -19,6 +19,8 @@ td { display: block; }
 
 div.outer { display: table; animation-delay: 1s; }
 
+p.inner { padding: 15px 5px 15px 5px; }
+
 .resizeimage img { width: 100vw; }
 
 /*以下フェードイン表示の指定*/
