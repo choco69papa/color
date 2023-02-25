@@ -18,6 +18,12 @@ td{
   display: block; 
 }
 
+@media (max-width: 599px) {
+  .about th, .about td {
+    display: block;
+    width: 100%;
+  }
+
 table tr:nth-child(odd){
   background-color: #eee
 }
