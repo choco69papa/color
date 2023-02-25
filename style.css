@@ -9,14 +9,13 @@ table{
 table th,table td{
   padding: 15px 5px 15px 5px;
   text-align: left;
-　display:block;
-　width:100%;
-　box-sizing:border-box;
 }
 
 table tr:nth-child(odd){
   background-color: #eee
 }
+
+td { display: block; }
 
 .resizeimage img { width: 100vw; }
 
