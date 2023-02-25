@@ -6,20 +6,13 @@ table{
   border-spacing: 0;
 }
 
-th{
+table th,table td{
+  padding: 15px 0 15px 1px;
   text-align: left;
-  padding: 15px 5px 15px 5px;
-  display: block; 
-}
-
-td{
-  text-align: left;
-  padding: 15px 5px 15px 5px;
-  display: block; 
 }
 
 @media (max-width: 599px) {
-  .about th, .about td {
+  .table th, .table td {
     display: block;
     width: 100%;
   }
