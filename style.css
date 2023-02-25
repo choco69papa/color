@@ -11,7 +11,7 @@ table th,table td{
   text-align: left;
 }
 
-table tr:nth-child(odd){
+div p:nth-child(odd){
   background-color: #eee
 }
 
