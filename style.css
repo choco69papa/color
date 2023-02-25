@@ -17,6 +17,9 @@ table tr:nth-child(odd){
 
 td { display: block; }
 
+div.outer { display: table; }
+p.inner { display: table-cell; }
+
 .resizeimage img { width: 100vw; }
 
 /*以下フェードイン表示の指定*/
