@@ -17,7 +17,7 @@ table tr:nth-child(odd){
 
 td { display: block; }
 
-div.outer { display: table; }
+div.outer { display: table; animation-delay: 1s; }
 p.inner { display: table-cell; }
 
 .resizeimage img { width: 100vw; }
