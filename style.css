@@ -6,7 +6,13 @@ table{
   border-spacing: 0;
 }
 
-table th,table td{
+th{
+  text-align: left;
+  padding: 15px 5px 15px 5px;
+  display: block; 
+}
+
+td{
   text-align: left;
   padding: 15px 5px 15px 5px;
   display: block; 
