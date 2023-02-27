@@ -23,13 +23,13 @@ table th,table td{
 }
  
 /*以下遅延の指定*/
-.txt01 {animation-delay: 1s;}
-.txt02 {animation-delay: 1.2s; background-color: #eee}
-.txt03 {animation-delay: 1.3s;}
-.txt04 {animation-delay: 1.4s;  background-color: #eee}
-.txt05 {animation-delay: 1.5s;}
-.txt06 {animation-delay: 1.6s;  background-color: #eee}
-.txt07 {animation-delay: 1.7s;}
-.txt08 {animation-delay: 1.8s;  background-color: #eee}
-.txt09 {animation-delay: 1.9s;}
-.txt10 {animation-delay: 2s;  background-color: #eee}
+.txt01 {animation-delay: 1s, background-color: #eee;}
+.txt02 {animation-delay: 1.2s;}
+.txt03 {animation-delay: 1.3s, background-color: #eee;}
+.txt04 {animation-delay: 1.4s; }
+.txt05 {animation-delay: 1.5s, background-color: #eee;}
+.txt06 {animation-delay: 1.6s;}
+.txt07 {animation-delay: 1.7s,  background-color: #eee;}
+.txt08 {animation-delay: 1.8s;}
+.txt09 {animation-delay: 1.9s,  background-color: #eee;}
+.txt10 {animation-delay: 2s;}
