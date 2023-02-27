@@ -11,10 +11,6 @@ table th,table td{
   text-align: left;
 }
 
-div p:nth-child(odd){
-  background-color: #eee
-}
-
 .resizeimage img { width: 100vw; }
 
 /*以下フェードイン表示の指定*/
