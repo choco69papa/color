@@ -1,6 +1,6 @@
 .resizeimage img { width: 100vw; }
 
-.right { text-align: right; padding: 3px;}
+p.right { text-align: right; padding: 5px;}
 	
 table{
   width: 100%;
