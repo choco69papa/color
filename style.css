@@ -1,4 +1,6 @@
 .resizeimage img { width: 100vw; }
+
+.right { text-align: right; }
 	
 table{
   width: 100%;
