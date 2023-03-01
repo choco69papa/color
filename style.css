@@ -22,6 +22,10 @@ table th,table td{
     box-sizing: border-box;
     padding: 5px;
 }
+.row .col.span-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
 
 .resizeimage img { width: 100vw; }
 
