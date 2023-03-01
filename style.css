@@ -34,7 +34,7 @@ table th,table td{
     animation: fadein 3s ease forwards;
 }
 @keyframes fadein {
-    100% {  opacity: 0.5;}
+    100% {  opacity: 1;}
 }
  
 /*以下遅延の指定*/
