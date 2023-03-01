@@ -13,6 +13,19 @@ table th,table td{
   text-align: left;
 }
 
+.col.span-5 {
+    flex: 0 0 39.3333333333%;
+    max-width: 39.3333333333%;
+}
+.col.span-7 {
+    flex: 0 0 56.6666666667%;
+    max-width: 56.6666666667%;
+}
+.col.span-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
 .resizeimage img { width: 100vw; }
 
 /*以下フェードイン表示の指定*/
