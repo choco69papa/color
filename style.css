@@ -13,17 +13,14 @@ table th,table td{
   text-align: left;
 }
 
-.span-5 {
-    flex: 0 0 39.3333333333%;
-    max-width: 39.3333333333%;
+.span-5{
+    display: flex;
+    flex-wrap: wrap;
 }
-.span-7 {
-    flex: 0 0 56.6666666667%;
-    max-width: 56.6666666667%;
-}
-.span-12 {
-    flex: 0 0 100%;
-    max-width: 100%;
+.span-5>div{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 5px;
 }
 
 .resizeimage img { width: 100vw; }
