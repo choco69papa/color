@@ -20,7 +20,7 @@ table th,table td{
 .span-5>div{
     width: 50%;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 2px 5px;
 }
 .span-12 {
     flex: 0 0 100%;
