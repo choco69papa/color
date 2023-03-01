@@ -21,17 +21,17 @@ table th,table td{
     animation: fadein 3s ease forwards;
 }
 @keyframes fadein {
-    100% {  opacity: 1;}
+    100% {  opacity: 0.5;}
 }
  
 /*以下遅延の指定*/
 .txt01 {animation-delay: 1s; background-color: #eee;}
-.txt02 {animation-delay: 1.2s;}
-.txt03 {animation-delay: 1.3s; background-color: #eee;}
-.txt04 {animation-delay: 1.4s; }
-.txt05 {animation-delay: 1.5s; background-color: #eee;}
-.txt06 {animation-delay: 1.6s;}
-.txt07 {animation-delay: 1.7s; background-color: #eee;}
-.txt08 {animation-delay: 1.8s;}
-.txt09 {animation-delay: 1.9s; background-color: #eee;}
-.txt10 {animation-delay: 2s;}
+.txt02 {animation-delay: 1.1s;}
+.txt03 {animation-delay: 1.22s; background-color: #eee;}
+.txt04 {animation-delay: 1.3s; }
+.txt05 {animation-delay: 1.4s; background-color: #eee;}
+.txt06 {animation-delay: 1.5s;}
+.txt07 {animation-delay: 1.6s; background-color: #eee;}
+.txt08 {animation-delay: 1.7s;}
+.txt09 {animation-delay: 1.8s; background-color: #eee;}
+.txt10 {animation-delay: 1.9s;}
